@@ -20,3 +20,4 @@ typeof(comp)
 
 logi <- TRUE
 class(logi)
+typeof(logi)
