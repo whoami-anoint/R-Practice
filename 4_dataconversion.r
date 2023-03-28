@@ -14,7 +14,7 @@ num3
 # In numeric when TRUE it prints 1 and FALSE it prints 0
 
 # character to numeric
-num4 <- as.numeric("Abhishek")
+num4 <- as.numeric("abhishek")
 num4
 # it prints always NA if you put alphabet in strings
 
@@ -71,5 +71,15 @@ comp4
 
 comp5 <- as.complex("Hello")
 comp5
-# This prints NA as everytime
+# This prints NA as #everytime
 
+# Others to Logical
+#This will prints FALSE only for 0 and prints TRUE for rest.
+
+# Others to Character
+# It converts every character to string 
+# Number 24 became "24"
+# Integer 24L became "24"
+# Logical TRUE became "TRUE"
+# complex number 12+2i became "12+2i"
+char <- as.character(12+2i)
